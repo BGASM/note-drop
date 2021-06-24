@@ -10947,3 +10947,8 @@ header.masthead .bg-circle-4 {
   height: 100%;
   border-radius: 50%
 }
+
+section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}

@@ -2,9 +2,9 @@
   <div id="app">
     <Navbar/>
     <Masthead/>
-    <Section1/>
     <Section2/>
     <Section3/>
+    <Section1/>
   </div>
 </template>
 
@@ -15,6 +15,7 @@ import Navbar from "./components/Navbar.vue";
 import Section1 from "./components/Section1.vue";
 import Section2 from "./components/Section2.vue";
 import Section3 from "./components/Section3.vue";
+
 
 
 export default {

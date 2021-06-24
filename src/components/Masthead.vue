@@ -5,7 +5,10 @@
             <div class="container px-5">
                 <h1 class="masthead-heading mb-0">Share Your Notes!</h1>
                 <h2 class="masthead-subheading text-gold mb-0">For Science</h2>
-                <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll">Upload</a>
+              <div class="btn-group-vertical mt-5">
+                <a class="btn btn-light btn-xl rounded-pill btn-block mt-2" href="#scroll">Read my nonsense</a>
+                <a class="btn btn-dark btn-xl rounded-pill btn-block mt-2" href="#upload">Just upload your crap</a>
+              </div>
             </div>
         </div>
         <div class="bg-circle-1 bg-circle"></div>

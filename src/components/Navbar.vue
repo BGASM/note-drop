@@ -1,10 +1,11 @@
 <template>
-  <b-navbar toggleable="lg" fixed type="dark" variant="dark">
-    <div class="container px-5">
-      <b-navbar-brand href="#page-top">BGASM</b-navbar-brand>
-      <b-navbar-toggle target="navbar-toggle-collapse">
-
-      </b-navbar-toggle>
+  <b-navbar toggleable="lg" sticky="true" type="dark" variant="dark">
+    <div class="container-fluid px-5">
+      <b-navbar-brand href="#page-top">
+        <img src="../assets/logo.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+        BGASM
+      </b-navbar-brand>
+      <b-navbar-toggle target="navbar-toggle-collapse"/>
       <b-collapse id="navbar-toggle-collapse" is-nav>
         <b-navbar-nav class="ml-auto"/>
       </b-collapse>

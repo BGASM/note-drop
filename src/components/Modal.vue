@@ -1,7 +1,13 @@
 <template>
 		<!-- Modal -->
     <b-modal id="myModal" title="Upload Notes!">
-      <Upload/>
+      <div class="container px-5">
+        <div class="row gx-5 align-items-center">
+          <Upload/>
+          <Survey/>
+        </div>
+      </div>
+
       <template #modal-footer >
       <!-- Emulate built in modal footer ok and cancel button actions -->
       <b-button id="modalSubmit" variant="success" @click='handleok'>Finished</b-button>
@@ -11,10 +17,12 @@
 
 <script>
   import Upload from "./Upload.vue";
+  import Survey from "./Survey.vue";
   export default {
   name: "Modal",
   components: {
-    Upload
+    Upload,
+    Survey
   },
   methods: {
     handleok() {
