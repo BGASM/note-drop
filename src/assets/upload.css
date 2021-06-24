@@ -1,0 +1,13 @@
+.formulate-form {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+
+.formulate-input-upload-area {
+    display: flex;
+    background-image: url(../assets/img/histo.jpg);
+    min-height: 150px;
+    min-width: 150px;
+    width: 30vw;
+    height: 30vw;
+    border-radius: 50%;
+    padding: 20px 20px; }
